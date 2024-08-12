@@ -45,8 +45,8 @@ function Particle() {
               particles_nb: 1,
             },
           },
-        },
-        retina_detect: true,
+        } ,
+        retina_detect: true ,
       }}
     />
   );
