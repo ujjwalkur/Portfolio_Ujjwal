@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import covid from "../../Assets/Projects/covid-19.png";
+import numberblock from "../../Assets/Projects/number-blocks.png";
+import news from "../../Assets/Projects/newspaper.png";
+import dashboard from "../../Assets/Projects/dashboard.png";
+import analysis from "../../Assets/Projects/analytics.png";
 
 function Projects() {
   return (
@@ -22,10 +22,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={news}
               isBlog={false}
               title="News-Later"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="News-Later website which shows current news in different categories like Sports, Science, Intertainment, Politics and more."
               ghLink="https://github.com/ujjwalkur/news_later"
             // demoLink=""
             />
@@ -33,10 +33,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={analysis}
               isBlog={false}
               title="Text-Analyzer"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="This project analyze your written text and tells you reading time, transform all text to lowercase to uppercase and vice-versa."
               ghLink="https://github.com/ujjwalkur/Text_Analyzer"
             // demoLink=""
             />
@@ -44,10 +44,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={numberblock}
               isBlog={false}
               title="GuessTheNumber Game"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="This is a classic game where you can play a game with computer and guess the number, you have given limited chance and you have to guess and you can make high score as well."
               ghLink="https://github.com/ujjwalkur/All_Projects/tree/main/Guess%20Number"
             // demoLink=""              
             />
@@ -55,10 +55,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={covid}
               isBlog={false}
               title="Covid-Awareness-Website"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="This portal is realted to covid-19 where you can see all details related to covid and you can see symptoms and contact to government officials."
               ghLink="https://github.com/ujjwalkur/All_Projects/tree/main/CovidAwarenessWebsite"
             // demoLink=""
             />
@@ -66,10 +66,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={dashboard}
               isBlog={false}
               title="Social-Media Dashboard"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="This project shows dashboard of social media which is created in react.js and shows all details related to user profile."
               ghLink="https://github.com/ujjwalkur/social-media-dashboard"
             // demoLink=""
             />
